@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ce3232"
+        android:typeface="serif"
+        android:textSize="40sp"
+        android:text="Registration" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginTop="50dp"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>
+
